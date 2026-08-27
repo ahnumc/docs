@@ -8,7 +8,6 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: '组件', link: '/components/' },
       { text: '皮肤站', link: 'https://skin.ahnumc.org' },
       { text: '卫星地图', link: 'https://map.ahnumc.srcflow.studio' }
     ],
@@ -21,9 +20,9 @@ export default defineConfig({
         ]
       },
       {
-        text: '组件',
+        text: '玩法',
         items: [
-          { text: '组件总览', link: '/components/' }
+          { text: '星门', link: '/mechanism/stargate' },
         ]
       }
     ],
