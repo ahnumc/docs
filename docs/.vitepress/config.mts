@@ -20,9 +20,10 @@ export default defineConfig({
         ]
       },
       {
-        text: '玩法',
+        text: '机制',
         items: [
-          { text: '星门', link: '/mechanism/stargate' },
+          { text: '星门', link: '/mechanism/stargate/' },
+          { text: 'CoreProtect', link: '/mechanism/coreprotect' },
         ]
       }
     ],
